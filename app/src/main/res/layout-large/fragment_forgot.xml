@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/green"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:theme="@style/NavTheme"
+    tools:context=".Fragments.Database.ForgotFragment">
+
+    <ImageView
+        android:id="@+id/button_back_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_icon_black" />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="@string/request_message"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail"
+        android:textColorHint="@color/colorAccent"
+        app:startIconDrawable="@drawable/mail_icon_black_24"
+        app:startIconTint="@color/SeaGreen"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/SeaGreen"
+        app:boxStrokeWidthFocused="2dp"
+        app:boxStrokeColor="@color/colorAccent"
+        app:boxStrokeWidth="3dp"
+        app:helperTextTextColor="@color/colorAccent"
+        app:hintTextColor="@color/colorAccent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_mail_forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_confirm_forgot"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/confirm"
+        android:background="@drawable/button_style"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

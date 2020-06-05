@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Plan Sihirbazı</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_open">Open</string>
+    <string name="navigation_close">Close</string>
+    <string name="my_plans">Planlarım</string>
+    <string name="daily">Günlük</string>
+    <string name="weekly">Haftalık</string>
+    <string name="monthly">Aylık</string>
+    <string name="plan_wizard">Plan Sihirbazı</string>
+    <string name="success_message">Daha üretken zihinler adına</string>
+    <string name="create_plan">Plan Oluştur</string>
+    <string name="card_header">. Plan</string>
+    <string name="card_show">Göster</string>
+    <string name="card_time">10:45</string>
+    <string name="card_date">04.06.2020</string>
+    <string name="card_title">Başlık</string>
+    <string name="card_content">Açıklama</string>
+    <string name="card_remain">Kalan Süre :</string>
+    <string name="add_plan">Plan Ekle</string>
+    <string name="plan_message">Plan yapmak hayatınızı kurtarır.</string>
+    <string name="choose_date">Tarih Seç</string>
+    <string name="choose_date_please">Lütfen \ntarih seçiniz</string>
+    <string name="choose_time_please">Lütfen \nsaat seçiniz</string>
+    <string name="choose_time">Saat Seç</string>
+    <string name="confirm">Onayla</string>
+    <string name="choose_avatar">Bir avatar seç!</string>
+    <string name="avatar_message">Gözler kalbin aynasıdır.</string>
+    <string name="message_daily">Bugün için bir plana sahip değilsiniz!</string>
+    <string name="request_message">New beginnings \nare always good!</string>
+    <string name="e_mail">E-Posta</string>
+    <string name="my_profile">Profilim</string>
+    <string name="login_message">Planlayıcına hoş geldin!</string>
+    <string name="question_login">Henüz bir planlayıcın yok mu?</string>
+    <string name="register">KAYIT OL</string>
+    <string name="nickname">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="remember_me">Beni Hatırla</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="forgot">Şifremi hatırlamıyorum</string>
+    <string name="monthly_message">Bu ay için bir plana sahip değilsiniz!</string>
+    <string name="name_surname"><![CDATA[Ad & Soyad]]></string>
+    <string name="phone">Telefon Numarası</string>
+    <string name="update">Güncelle</string>
+    <string name="cancel">İptal</string>
+    <string name="register_message">Planlayıcı sihirbazın için aramıza katıl!</string>
+    <string name="country_code">90</string>
+    <string name="gsm_code">5XX</string>
+    <string name="phone_code">XXXXXXX</string>
+    <string name="record">Kayıt</string>
+    <string name="weekly_message">Bu hafta için bir plana sahip değilsiniz!</string>
+
+
+</resources>

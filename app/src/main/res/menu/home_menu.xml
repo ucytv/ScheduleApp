@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/icon_person_white_24"
+        android:title="Profilim"
+         />
+
+    <item
+        android:id="@+id/menu_plan"
+        android:icon="@drawable/mail_icon_black_24"
+        android:title="Planlarım"
+          />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/icon_exit_white_24"
+        android:title="Çıkış Yap"
+          />
+
+</menu>

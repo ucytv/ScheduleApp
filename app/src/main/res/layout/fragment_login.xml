@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:theme="@style/NavTheme"
+    tools:context=".Fragments.Database.LoginFragment"
+    android:background="@color/green">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/wizard"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/login_message"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_login"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/button_signup"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="casual"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nickname"
+        android:textColorHint="@color/colorAccent"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/colorAccent"
+        app:boxStrokeWidthFocused="2dp"
+        app:boxStrokeColor="@color/colorAccent"
+        app:boxStrokeWidth="3dp"
+        app:helperTextTextColor="@color/colorAccent"
+        app:hintTextColor="@color/colorAccent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorAccent"
+        app:hintTextColor="@color/colorAccent"
+        app:helperTextTextColor="@color/colorAccent"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/colorAccent"
+        app:boxStrokeColor="@color/colorAccent"
+        app:boxStrokeWidth="3dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeWidthFocused="2dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:inputType="textPassword"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        >
+
+        <CheckBox
+            android:id="@+id/checkbox_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:text="@string/remember_me"
+            android:fontFamily="casual"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/login"
+        android:background="@drawable/button_style"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button_forgot"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="@string/forgot"
+        android:textAllCaps="false"
+        android:fontFamily="@font/architects_daughter"
+        android:background="@drawable/button_style_2"
+
+        />
+
+
+
+</LinearLayout>
