@@ -218,7 +218,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             builder.setSmallIcon(R.drawable.wizard);
             builder.setAutoCancel(true);
             builder.setContentIntent(goToIntent);
-
         }
 
         Intent broadcastIntent = new Intent(

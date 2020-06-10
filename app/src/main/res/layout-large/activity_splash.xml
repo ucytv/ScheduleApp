@@ -8,7 +8,6 @@
     android:paddingStart="30dp"
     android:paddingEnd="30dp"
     android:orientation="vertical"
-    android:theme="@style/HopTheme"
     tools:context=".Activities.SplashActivity">
 
     <ImageView

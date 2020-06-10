@@ -220,8 +220,6 @@ public class AddPlanFragment extends Fragment implements View.OnClickListener {
     }
 
     private String getCalendar(String firstDate, int day, int month) {
-
-
         final Calendar calendar = Calendar.getInstance();
         int currentMonth = calendar.get(Calendar.MONTH) + 1;
         int currentDay = calendar.get(Calendar.DAY_OF_MONTH);

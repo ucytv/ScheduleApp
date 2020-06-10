@@ -50,7 +50,6 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -83,7 +82,6 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
     }
 
     private void typeCasting(View view) {
-
         remember = view.findViewById(R.id.checkbox_remember);
         nick = view.findViewById(R.id.edit_nick);
         pass = view.findViewById(R.id.edit_pass);
@@ -131,9 +129,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             database.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
                     if (dataSnapshot.hasChild(mNick)) {
-
                         for (DataSnapshot info : dataSnapshot.getChildren()) {
                             User user = info.getValue(User.class);
                             //Kullanıcı adı ve şifre ile giriş tasarladığımdan dolayı
